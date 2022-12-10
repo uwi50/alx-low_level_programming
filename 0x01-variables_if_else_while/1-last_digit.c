@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int n, lst_digit;
+	int n;
+	int lst_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;

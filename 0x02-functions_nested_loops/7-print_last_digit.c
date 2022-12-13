@@ -4,7 +4,7 @@
 /**
  * print_last_digit - prints the last digit
  * @x: the number
- * Return value of last digit
+ * Return: return value of last digit
  */
 
 int print_last_digit(int x)
@@ -14,5 +14,5 @@ int print_last_digit(int x)
 	if (r < 0)
 		r *= -1;
 	_putchar(r + '0');
-	return (0);
+	return (r);
 }

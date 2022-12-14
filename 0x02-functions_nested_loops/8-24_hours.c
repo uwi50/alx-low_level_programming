@@ -2,12 +2,10 @@
 
 /**
  * jack_bauer - prints a whole day minute and day
- * 
  */
-
 void jack_bauer(void)
 {
-	int hour = 0 , minute;
+	int hour = 0, minute;
 
 	while (hour < 24)
 	{

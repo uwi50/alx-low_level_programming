@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * print_line - prints a straight line
+ * @n: the number of line to print out
+ */
 
 void print_line(int n)
 {

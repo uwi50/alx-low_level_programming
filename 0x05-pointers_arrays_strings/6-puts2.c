@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - function that prints a character and jump the next until the string is finished
+ * puts2 - function that prints one of 2 characters
  * @str: the string to use
  */
 

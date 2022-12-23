@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * *_strcat - Concatenates 
+ * *_strcat - Concatenates
  * @dest : the string to be concatenated upon
  * @src : the source string to be appended
+ * return : returns a single string (the destination)
  */
 
 char *_strcat(char *dest, char *src)

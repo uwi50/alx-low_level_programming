@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - checks code
+ * Return: always 0 (Success)
+ */
 
 int main(void)
 {

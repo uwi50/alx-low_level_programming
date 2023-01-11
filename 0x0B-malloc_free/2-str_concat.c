@@ -11,14 +11,14 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *conc;
-	int i = 0, j = 0,m = 0, n = 0;
+	int i = 0, j = 0, m = 0, n = 0;
 
 	while (s1[i])
 		i++;
 	while (s2[j])
 		j++;
 	conc = malloc((i + j + 1) * sizeof(char));
-	if (conc == NULL)
+	if (conc == NULL || s1 == NULL || s2 == NULL)
 		return (NULL);
 	if (s1)
 	{
